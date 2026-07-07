@@ -49,20 +49,21 @@
 <span class="absolute right-full mr-4 bg-white text-black px-3 py-1 rounded-lg text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md">Chat with us</span>
 </a>
 <!-- Header -->
-<header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-outline-variant">
-<nav class="flex justify-between items-center px-6 md:px-16 max-w-[1280px] mx-auto w-full h-24">
-<div class="flex items-center">
-<img alt="Kianyinyi Logo" class="h-16 w-auto object-contain" src="images/img_009.jpg">
-</div>
+<header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-outline-variant shadow-sm">
+<nav class="flex justify-between items-center px-6 md:px-16 max-w-[1280px] mx-auto w-full" style="height:90px;">
+<a href="index.html" class="flex items-center flex-shrink-0">
+<img alt="Kianyinyi Company Limited Logo" class="w-auto object-contain" style="height:90px;" src="images/logo.png">
+</a>
 <div class="hidden md:flex items-center gap-8">
-<a class="text-black font-bold border-b-2 border-black pb-1 font-label text-sm transition-colors duration-200" href="index.html">Home</a>
-<a class="text-black hover:opacity-70 font-label text-sm transition-colors duration-200" href="about.html">About Us</a>
-<a class="text-black hover:opacity-70 font-label text-sm transition-colors duration-200" href="services.html">Services</a>
-<a class="text-black hover:opacity-70 font-label text-sm transition-colors duration-200" href="properties.html">Properties</a>
+<a class="text-black font-bold border-b-2 border-black pb-1 font-label text-sm transition-colors duration-200 hover:opacity-70" href="index.html">Home</a>
+<a class="text-black font-label text-sm transition-colors duration-200 hover:opacity-70" href="about.html">About Us</a>
+<a class="text-black font-label text-sm transition-colors duration-200 hover:opacity-70" href="services.html">Services</a>
+<a class="text-black font-label text-sm transition-colors duration-200 hover:opacity-70" href="properties.html">Properties</a>
 </div>
-<a class="bg-black text-white px-8 py-3 rounded-full font-label text-sm hover:bg-opacity-80 active:scale-95 transition-all text-center" href="contact.html">
-            Contact Us
-        </a>
+<div class="flex items-center gap-3">
+<a class="hidden md:block bg-black text-white px-6 py-2.5 rounded-full font-label text-sm hover:bg-zinc-800 active:scale-95 transition-all text-center" href="contact.html">Contact Us</a>
+<button class="md:hidden text-black p-2" aria-label="Open menu"><span class="material-symbols-outlined">menu</span></button>
+</div>
 </nav>
 </header>
 <main>
@@ -81,22 +82,24 @@
 </div>
 <div class="w-full md:w-1/2 h-full p-6 md:p-8">
 <div class="w-full h-[300px] md:h-full rounded-3xl overflow-hidden shadow-2xl">
-<img alt="Modern Nairobi Office" class="w-full h-full object-cover" src="images/img_012.jpg">
+<img alt="Modern Nairobi Office" class="w-full h-full object-cover" src="images/citrine_new_01.jpg">
 </div>
 </div>
 </div>
-<!-- Slide 2: Team Excellence -->
+<!-- Slide 2: Featured Property - Citrine Heights -->
 <div class="min-w-full h-full flex flex-col md:flex-row items-center">
 <div class="w-full md:w-1/2 px-6 md:px-16 py-12 space-y-8">
-<h1 class="font-display text-4xl md:text-6xl text-black font-bold leading-tight tracking-tight">Your Trusted Real Estate Partner</h1>
-<p class="font-body text-base md:text-lg text-black/80 max-w-md">Our team of dedicated professionals provides transparent, professional, and high-quality property solutions in the Kenyan market.</p>
-<div class="flex gap-4">
-<a class="bg-black text-white px-8 py-4 rounded-full font-label text-sm hover:bg-opacity-80 transition-all text-center" href="contact.html">Contact Us</a>
+<span class="bg-black text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg inline-block w-fit">Featured Property</span>
+<h1 class="font-display text-4xl md:text-6xl text-black font-bold leading-tight tracking-tight">Luxury living at Citrine Heights</h1>
+<p class="font-body text-base md:text-lg text-black/80 max-w-md">Exquisite 2-bedroom luxury apartments on Westlands Road, Westlands. Featuring a heated pool, fully equipped gym, and backup generator.</p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-black text-white px-8 py-4 rounded-full font-label text-sm hover:bg-opacity-80 transition-all text-center" href="properties.html">View Property</a>
+<a class="border border-black text-black px-8 py-4 rounded-full font-label text-sm hover:bg-surface-container-high transition-all text-center" href="contact.html">Inquire Now</a>
 </div>
 </div>
 <div class="w-full md:w-1/2 h-full p-6 md:p-8">
 <div class="w-full h-[300px] md:h-full rounded-3xl overflow-hidden shadow-2xl">
-<img alt="Professional Kenyan Real Estate Team" class="w-full h-full object-cover" src="images/img_015.jpg">
+<img alt="Featured Property: 2-Bedroom Luxury Apartment, Citrine Heights" class="w-full h-full object-cover" src="images/citrine_06.jpg">
 </div>
 </div>
 </div>
@@ -119,7 +122,7 @@
 <section class="py-24 px-6 md:px-16 max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center" id="about">
 <div class="space-y-8 order-2 md:order-1">
 <h2 class="font-headline text-4xl md:text-5xl font-bold text-black">Your Trusted Real Estate Partner</h2>
-<p class="font-body text-base md:text-lg text-black/70 leading-relaxed">Megascope Properties is a premier real estate firm dedicated to providing transparent, professional, and high-quality property solutions in the Kenyan market.</p>
+<p class="font-body text-base md:text-lg text-black/70 leading-relaxed">Kianyinyi Company Limited is a premier real estate firm dedicated to providing transparent, professional, and high-quality property solutions in the Kenyan market.</p>
 <p class="font-body text-base text-black/60 leading-relaxed">We bridge the gap between dream and reality, ensuring every transaction is handled with the highest level of integrity and legal verification required by Kenyan law.</p>
 <div class="flex flex-wrap gap-4 pt-4">
 <button class="bg-black text-white px-8 py-3 rounded-full font-label text-sm hover:bg-opacity-80 transition-all">Learn More</button>
@@ -128,7 +131,7 @@
 </div>
 <div class="relative order-1 md:order-2">
 <div class="aspect-square rounded-3xl overflow-hidden shadow-xl">
-<img alt="Real Estate Professionals in Kenya" class="w-full h-full object-cover" src="images/img_015.jpg">
+<img alt="Real Estate Professionals in Kenya" class="w-full h-full object-cover" src="images/citrine_new_02.jpg">
 </div>
 <div class="absolute -bottom-8 -left-8 bg-white p-8 rounded-2xl shadow-lg border border-outline-variant hidden lg:block">
 <div class="text-3xl font-bold text-black">15+</div>
@@ -146,7 +149,7 @@
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
 <div class="space-y-2" id="accordion-container">
 <!-- Service Items -->
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent hover:border-outline-variant" data-img="images/img_029.jpg" data-index="0">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent hover:border-outline-variant" data-img="images/citrine_new_06.jpg" data-index="0">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">01 - Buying</span>
 <span class="material-symbols-outlined transition-transform duration-300">add</span>
@@ -155,7 +158,7 @@
 <p class="font-body text-sm md:text-base text-black/70">Expert guidance for property acquisition, from search to final handover.</p>
 </div>
 </div>
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl active-service-accordion border border-black/10" data-img="images/img_023.jpg" data-index="1">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl active-service-accordion border border-black/10" data-img="images/citrine_new_07.jpg" data-index="1">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">02 - Selling</span>
 <span class="material-symbols-outlined transition-transform duration-300">remove</span>
@@ -164,7 +167,7 @@
 <p class="font-body text-sm md:text-base text-black/70">Strategic marketing and valuation to get the best price for your property.</p>
 </div>
 </div>
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_018.jpg" data-index="2">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/citrine_new_08.jpg" data-index="2">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">03 - Renting</span>
 <span class="material-symbols-outlined transition-transform duration-300">add</span>
@@ -173,7 +176,7 @@
 <p class="font-body text-sm md:text-base text-black/70">Comprehensive tenant matching and rental management for residential properties.</p>
 </div>
 </div>
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_010.jpg" data-index="3">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_025.jpg" data-index="3">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">04 - Sourcing</span>
 <span class="material-symbols-outlined transition-transform duration-300">add</span>
@@ -182,7 +185,7 @@
 <p class="font-body text-sm md:text-base text-black/70">Targeted property searches for unique investment opportunities and land.</p>
 </div>
 </div>
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_019.jpg" data-index="4">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_022.jpg" data-index="4">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">05 - Leasing</span>
 <span class="material-symbols-outlined transition-transform duration-300">add</span>
@@ -193,7 +196,7 @@
 </div>
 </div>
 <div class="h-[300px] md:h-[500px] rounded-3xl overflow-hidden sticky top-32 shadow-2xl hidden lg:block">
-<img alt="Service Illustration" class="w-full h-full object-cover transition-opacity duration-500" id="service-display-image" src="images/img_023.jpg">
+<img alt="Service Illustration" class="w-full h-full object-cover transition-opacity duration-500" id="service-display-image" src="images/citrine_new_07.jpg">
 </div>
 </div>
 </div>
@@ -214,7 +217,7 @@
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
 <!-- Property Card 1: Ngong Hills Land -->
-<div class="property-card group cursor-pointer bg-white rounded-3xl overflow-hidden border border-outline-variant transition-all duration-500 hover:shadow-2xl" onclick="openModal('land')">
+<div class="property-card group cursor-pointer bg-white rounded-3xl overflow-hidden border border-outline-variant transition-all duration-500 hover:shadow-2xl" onclick="openModal('land')" data-category="land">
 <div class="relative aspect-[4/3] overflow-hidden">
 <img alt="Prime Land in Oltepesi" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="images/img_025.jpg">
 <div class="absolute top-6 left-6">
@@ -254,7 +257,7 @@
 </div>
 </div>
 <!-- Property Card 2: The Willow Estate Villa -->
-<div class="property-card group cursor-pointer bg-white rounded-3xl overflow-hidden border border-outline-variant transition-all duration-500 hover:shadow-2xl" onclick="openModal('villa')">
+<div class="property-card group cursor-pointer bg-white rounded-3xl overflow-hidden border border-outline-variant transition-all duration-500 hover:shadow-2xl" onclick="openModal('villa')" data-category="house">
 <div class="relative aspect-[4/3] overflow-hidden">
 <img alt="The Willow Estate Villa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="images/img_027.jpg">
 <div class="absolute top-6 left-6">
@@ -293,13 +296,133 @@
 </button>
 </div>
 </div>
+<!-- Property Card 3: Citrine Heights 1-Bedroom -->
+<div class="property-card group cursor-pointer bg-white rounded-3xl overflow-hidden border border-outline-variant transition-all duration-500 hover:shadow-2xl" onclick="openModal('citrine_1bed')" data-category="house">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="1-Bedroom Luxury Apartment, Citrine Heights" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="images/citrine_01.jpg">
+<div class="absolute top-6 left-6">
+<span class="bg-black text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">House</span>
+</div>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="text-xl md:text-2xl font-bold font-headline mb-1">1-Bed Apartment, Citrine Heights</h3>
+<div class="flex items-center text-on-surface-variant gap-1">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span class="text-xs font-body">Westlands Road, Westlands</span>
+</div>
+</div>
+<div class="text-right">
+<p class="text-black font-bold text-lg md:text-xl font-headline">KES 7.3M</p>
+</div>
+</div>
+<div class="flex items-center gap-4 mb-8 py-4 border-y border-surface-container overflow-x-auto no-scrollbar">
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-base">bed</span>
+<span class="text-[10px] md:text-xs font-medium">1 Bed</span>
+</div>
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-base">crop_square</span>
+<span class="text-[10px] md:text-xs font-medium">68 sqm</span>
+</div>
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-base">pool</span>
+<span class="text-[10px] md:text-xs font-medium">Heated Pool</span>
+</div>
+</div>
+<button class="w-full bg-black text-white py-4 rounded-full font-bold hover:opacity-90 transition-colors flex items-center justify-center gap-2 text-sm">
+                        View Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Property Card 4: Citrine Heights 2-Bedroom -->
+<div class="property-card group cursor-pointer bg-white rounded-3xl overflow-hidden border border-outline-variant transition-all duration-500 hover:shadow-2xl" onclick="openModal('citrine_2bed')" data-category="house">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="2-Bedroom Luxury Apartment, Citrine Heights" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="images/citrine_06.jpg">
+<div class="absolute top-6 left-6">
+<span class="bg-black text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">House</span>
+</div>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="text-xl md:text-2xl font-bold font-headline mb-1">2-Bed Apartment, Citrine Heights</h3>
+<div class="flex items-center text-on-surface-variant gap-1">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span class="text-xs font-body">Westlands Road, Westlands</span>
+</div>
+</div>
+<div class="text-right">
+<p class="text-black font-bold text-lg md:text-xl font-headline">KES 11.0M</p>
+</div>
+</div>
+<div class="flex items-center gap-4 mb-8 py-4 border-y border-surface-container overflow-x-auto no-scrollbar">
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-base">bed</span>
+<span class="text-[10px] md:text-xs font-medium">2 Beds</span>
+</div>
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-base">crop_square</span>
+<span class="text-[10px] md:text-xs font-medium">105 sqm</span>
+</div>
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-base">pool</span>
+<span class="text-[10px] md:text-xs font-medium">Heated Pool</span>
+</div>
+</div>
+<button class="w-full bg-black text-white py-4 rounded-full font-bold hover:opacity-90 transition-colors flex items-center justify-center gap-2 text-sm">
+                        View Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Property Card 5: Citrine Heights 2-Bedroom + DSQ -->
+<div class="property-card group cursor-pointer bg-white rounded-3xl overflow-hidden border border-outline-variant transition-all duration-500 hover:shadow-2xl" onclick="openModal('citrine_2bed_dsq')" data-category="house">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="2-Bedroom Apartment + DSQ, Citrine Heights" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="images/citrine_10.jpg">
+<div class="absolute top-6 left-6">
+<span class="bg-black text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">House</span>
+</div>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="text-xl md:text-2xl font-bold font-headline mb-1">2-Bed + DSQ, Citrine Heights</h3>
+<div class="flex items-center text-on-surface-variant gap-1">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span class="text-xs font-body">Westlands Road, Westlands</span>
+</div>
+</div>
+<div class="text-right">
+<p class="text-black font-bold text-lg md:text-xl font-headline">KES 12.9M</p>
+</div>
+</div>
+<div class="flex items-center gap-4 mb-8 py-4 border-y border-surface-container overflow-x-auto no-scrollbar">
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-base">bed</span>
+<span class="text-[10px] md:text-xs font-medium">2 Beds + DSQ</span>
+</div>
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-base">crop_square</span>
+<span class="text-[10px] md:text-xs font-medium">125 sqm</span>
+</div>
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-base">pool</span>
+<span class="text-[10px] md:text-xs font-medium">Heated Pool</span>
+</div>
+</div>
+<button class="w-full bg-black text-white py-4 rounded-full font-bold hover:opacity-90 transition-colors flex items-center justify-center gap-2 text-sm">
+                        View Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
 </div>
 </section>
 <!-- Why Choose Us -->
 <section class="py-24 px-6 md:px-16 max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 <div class="order-2 md:order-1">
 <div class="rounded-3xl overflow-hidden shadow-xl">
-<img alt="Kenyan Real Estate Authority" class="w-full h-auto object-cover" src="images/img_015.jpg">
+<img alt="Kenyan Real Estate Authority" class="w-full h-auto object-cover" src="images/citrine_new_12.jpg">
 </div>
 </div>
 <div class="space-y-8 order-1 md:order-2">
@@ -416,57 +539,58 @@
 </style>
 <!-- Footer -->
 <footer class="bg-white border-t border-outline-variant">
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 px-6 md:px-16 py-24 max-w-[1280px] mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 px-6 md:px-16 py-20 max-w-[1280px] mx-auto">
 <div class="space-y-6">
-<div class="mb-6">
-<img alt="Kianyinyi Logo" class="h-16 w-auto object-contain" src="images/img_009.jpg">
+<div class="mb-4">
+<img alt="Kianyinyi Company Limited Logo" class="w-auto object-contain" style="height:90px;" src="images/logo.jpg">
 </div>
 <p class="font-body text-sm text-black/60 leading-relaxed">Your trusted companion in the journey to finding the perfect property in Kenya. Excellence, integrity, and transparency in every deal.</p>
 </div>
 <div class="space-y-6">
 <h4 class="font-bold text-black uppercase tracking-[0.2em] text-[10px]">Quick Links</h4>
 <ul class="space-y-4">
-<li class=""><a class="text-black/60 hover:text-black font-body text-sm transition-all" href="index.html">Home</a></li>
-<li class=""><a class="text-black/60 hover:text-black font-body text-sm transition-all" href="about.html">About Us</a></li>
-<li class=""><a class="text-black/60 hover:text-black font-body text-sm transition-all" href="services.html">Services</a></li>
-<li class=""><a class="text-black/60 hover:text-black font-body text-sm transition-all" href="properties.html">Properties</a></li>
+<li><a class="text-black/60 hover:text-black font-body text-sm transition-all" href="index.html">Home</a></li>
+<li><a class="text-black/60 hover:text-black font-body text-sm transition-all" href="about.html">About Us</a></li>
+<li><a class="text-black/60 hover:text-black font-body text-sm transition-all" href="services.html">Services</a></li>
+<li><a class="text-black/60 hover:text-black font-body text-sm transition-all" href="properties.html">Properties</a></li>
+<li><a class="text-black/60 hover:text-black font-body text-sm transition-all" href="contact.html">Contact Us</a></li>
 </ul>
 </div>
 <div class="space-y-6">
 <h4 class="font-bold text-black uppercase tracking-[0.2em] text-[10px]">Social Media</h4>
 <ul class="space-y-4">
-<li class="">
+<li>
 <a class="text-black/60 hover:text-black font-body text-sm transition-all flex items-center gap-3" href="https://www.instagram.com/megascopeproperties/" target="_blank">
 <span class="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center text-xs"><i class="fab fa-instagram"></i></span>
-                        Instagram
-                    </a>
+Instagram
+</a>
 </li>
-<li class="">
-<a class="text-black/60 hover:text-black font-body text-sm transition-all flex items-center gap-3" href="#">
+<li>
+<a class="text-black/60 hover:text-black font-body text-sm transition-all flex items-center gap-3" href="https://www.tiktok.com/@megascopeproperties" target="_blank">
 <span class="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center text-xs"><i class="fab fa-tiktok"></i></span>
-                        TikTok
-                    </a>
+TikTok
+</a>
 </li>
-<li class="">
-<a class="text-black/60 hover:text-black font-body text-sm transition-all flex items-center gap-3" href="#">
+<li>
+<a class="text-black/60 hover:text-black font-body text-sm transition-all flex items-center gap-3" href="https://www.facebook.com/megascopeproperty" target="_blank">
 <span class="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center text-xs"><i class="fab fa-facebook-f"></i></span>
-                        Facebook
-                    </a>
+Facebook
+</a>
 </li>
 </ul>
 </div>
 <div class="space-y-6">
 <h4 class="font-bold text-black uppercase tracking-[0.2em] text-[10px]">Contact</h4>
 <div class="text-black/60 font-body text-sm space-y-3">
-<p class="">Kiserian, Mutall Building, 2nd Floor</p>
-<p class="">Nairobi, Kenya</p>
-<p class="font-bold text-black text-base pt-2">+254 721 135 788</p>
+<div class="flex items-start gap-2"><span class="material-symbols-outlined text-base mt-0.5">location_on</span><p>Kiserian, Mutall Building, 2nd Floor<br>Nairobi, Kenya</p></div>
+<div class="flex items-center gap-2"><span class="material-symbols-outlined text-base">call</span><a class="font-bold text-black hover:underline" href="tel:+254721135788">+254 721 135 788</a></div>
+<div class="flex items-center gap-2"><span class="material-symbols-outlined text-base">schedule</span><p>Mon – Sat: 8:00 AM – 6:00 PM</p></div>
 </div>
 </div>
 </div>
 <div class="px-6 md:px-16 py-8 border-t border-outline-variant max-w-[1280px] mx-auto text-center font-body text-black/40 text-[10px] uppercase tracking-widest">
-        © 2026 Megascope Properties
-    </div>
+&copy; 2026 Kianyinyi Company Limited. All rights reserved.
+</div>
 </footer>
 <script>
     // Hero Slider Logic
@@ -589,6 +713,109 @@
                 "5+ parking slots and manicured lawn",
                 "Perimeter wall + electric fence",
                 "Ready title deed"
+            ]
+        },
+        citrine_1bed: {
+            title: "1-Bedroom Luxury Apartment, Citrine Heights",
+            location: "Westlands Road, Westlands, Nairobi",
+            price: "KES 7.3 Million",
+            images: [
+                "images/citrine_01.jpg",
+                "images/citrine_02.jpg",
+                "images/citrine_03.jpg",
+                "images/citrine_04.jpg",
+                "images/citrine_05.jpg",
+                "images/citrine_06.jpg",
+                "images/citrine_07.jpg",
+                "images/citrine_08.jpg",
+                "images/citrine_09.jpg",
+                "images/citrine_10.jpg",
+                "images/citrine_11.jpg",
+                "images/citrine_12.jpg",
+                "images/citrine_13.jpg",
+                "images/citrine_14.jpg",
+                "images/citrine_15.jpg",
+                "images/citrine_16.jpg"
+            ],
+            instagram: "https://www.instagram.com/megascopeproperties/",
+            type: "HOUSE",
+            details: [
+                "1 Bedroom (68 sqm) executive smart space",
+                "Located on Westlands Road opposite Stanbic Bank Chiromo & GTC",
+                "Backup generator, borehole water, and 24/7 security with CCTV",
+                "Access to heated swimming pools (adult & children)",
+                "On-site cafeteria and fully equipped gym",
+                "Rooftop green garden with stunning city views",
+                "Estimated 8.5% - 10% net rental yield (USD-linked asset)"
+            ]
+        },
+        citrine_2bed: {
+            title: "2-Bedroom Luxury Apartment, Citrine Heights",
+            location: "Westlands Road, Westlands, Nairobi",
+            price: "KES 11.0 Million",
+            images: [
+                "images/citrine_06.jpg",
+                "images/citrine_01.jpg",
+                "images/citrine_02.jpg",
+                "images/citrine_03.jpg",
+                "images/citrine_04.jpg",
+                "images/citrine_05.jpg",
+                "images/citrine_07.jpg",
+                "images/citrine_08.jpg",
+                "images/citrine_09.jpg",
+                "images/citrine_10.jpg",
+                "images/citrine_11.jpg",
+                "images/citrine_12.jpg",
+                "images/citrine_13.jpg",
+                "images/citrine_14.jpg",
+                "images/citrine_15.jpg",
+                "images/citrine_16.jpg"
+            ],
+            instagram: "https://www.instagram.com/megascopeproperties/",
+            type: "HOUSE",
+            details: [
+                "2 Bedroom (105 sqm) spacious luxury residence",
+                "Located on Westlands Road opposite Stanbic Bank Chiromo & GTC",
+                "Backup generator, borehole water, and 24/7 security with CCTV",
+                "Access to heated swimming pools (adult & children)",
+                "On-site cafeteria and fully equipped gym",
+                "Rooftop green garden with stunning city views",
+                "Estimated 8.5% - 10% net rental yield (USD-linked asset)"
+            ]
+        },
+        citrine_2bed_dsq: {
+            title: "2-Bedroom Apartment + DSQ, Citrine Heights",
+            location: "Westlands Road, Westlands, Nairobi",
+            price: "KES 12.9 Million",
+            images: [
+                "images/citrine_10.jpg",
+                "images/citrine_01.jpg",
+                "images/citrine_02.jpg",
+                "images/citrine_03.jpg",
+                "images/citrine_04.jpg",
+                "images/citrine_05.jpg",
+                "images/citrine_06.jpg",
+                "images/citrine_07.jpg",
+                "images/citrine_08.jpg",
+                "images/citrine_09.jpg",
+                "images/citrine_11.jpg",
+                "images/citrine_12.jpg",
+                "images/citrine_13.jpg",
+                "images/citrine_14.jpg",
+                "images/citrine_15.jpg",
+                "images/citrine_16.jpg"
+            ],
+            instagram: "https://www.instagram.com/megascopeproperties/",
+            type: "HOUSE",
+            details: [
+                "2 Bedroom + DSQ (125 sqm) premium executive suite",
+                "Includes Domestic Servant Quarter (DSQ)",
+                "Located on Westlands Road opposite Stanbic Bank Chiromo & GTC",
+                "Backup generator, borehole water, and 24/7 security with CCTV",
+                "Access to heated swimming pools (adult & children)",
+                "On-site cafeteria and fully equipped gym",
+                "Rooftop green garden with stunning city views",
+                "Estimated 8.5% - 10% net rental yield (USD-linked asset)"
             ]
         }
     };
@@ -724,17 +951,35 @@
     function closeModal() {
         modal.classList.remove('active');
         document.body.style.overflow = '';
+        modalContent.innerHTML = '';
     }
 
     // Filter UI interaction
-    document.querySelectorAll('.filter-btn').forEach(btn => {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const propertyCards = document.querySelectorAll('.property-card');
+
+    filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            document.querySelectorAll('.filter-btn').forEach(b => {
+            filterBtns.forEach(b => {
                 b.classList.remove('active', 'bg-black', 'text-white');
                 b.classList.add('border', 'border-outline-variant', 'text-black');
             });
             btn.classList.add('active', 'bg-black', 'text-white');
             btn.classList.remove('border', 'border-outline-variant', 'text-black');
+
+            const filterValue = btn.textContent.trim().toLowerCase();
+            propertyCards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                if (filterValue === 'all') {
+                    card.style.display = 'block';
+                } else if (filterValue === 'houses' && category === 'house') {
+                    card.style.display = 'block';
+                } else if (filterValue === 'land' && category === 'land') {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
         });
     });
 

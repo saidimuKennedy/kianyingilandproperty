@@ -51,20 +51,21 @@
 <span class="absolute right-full mr-4 bg-white text-black px-3 py-1 rounded-lg text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md">Chat with us</span>
 </a>
 <!-- Header -->
-<header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-outline-variant">
-<nav class="flex justify-between items-center px-6 md:px-16 max-w-[1280px] mx-auto w-full h-24">
-<div class="flex items-center">
-<img alt="Kianyinyi Logo" class="h-16 w-auto object-contain" src="images/img_009.jpg"/>
-</div>
+<header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-outline-variant shadow-sm">
+<nav class="flex justify-between items-center px-6 md:px-16 max-w-[1280px] mx-auto w-full" style="height:90px;">
+<a href="index.html" class="flex items-center flex-shrink-0">
+<img alt="Kianyinyi Company Limited Logo" class="w-auto object-contain" style="height:90px;" src="images/logo.jpg">
+</a>
 <div class="hidden md:flex items-center gap-8">
-<a class="text-black font-bold border-b-2 border-black pb-1 font-label text-sm transition-colors duration-200" href="index.html">Home</a>
-<a class="text-black hover:opacity-70 font-label text-sm transition-colors duration-200" href="about.html">About Us</a>
-<a class="text-black hover:opacity-70 font-label text-sm transition-colors duration-200" href="services.html">Services</a>
-<a class="text-black hover:opacity-70 font-label text-sm transition-colors duration-200" href="properties.html">Properties</a>
+<a class="text-black font-bold border-b-2 border-black pb-1 font-label text-sm transition-colors duration-200 hover:opacity-70" href="index.html">Home</a>
+<a class="text-black font-label text-sm transition-colors duration-200 hover:opacity-70" href="about.html">About Us</a>
+<a class="text-black font-label text-sm transition-colors duration-200 hover:opacity-70" href="services.html">Services</a>
+<a class="text-black font-label text-sm transition-colors duration-200 hover:opacity-70" href="properties.html">Properties</a>
 </div>
-<a class="bg-black text-white px-8 py-3 rounded-full font-label text-sm hover:bg-opacity-80 active:scale-95 transition-all text-center" href="contact.html">
-            Contact Us
-        </a>
+<div class="flex items-center gap-3">
+<a class="hidden md:block bg-black text-white px-6 py-2.5 rounded-full font-label text-sm hover:bg-zinc-800 active:scale-95 transition-all text-center" href="contact.html">Contact Us</a>
+<button class="md:hidden text-black p-2" aria-label="Open menu"><span class="material-symbols-outlined">menu</span></button>
+</div>
 </nav>
 </header>
 <main>
@@ -83,22 +84,24 @@
 </div>
 <div class="w-full md:w-1/2 h-full p-6 md:p-8">
 <div class="w-full h-[300px] md:h-full rounded-3xl overflow-hidden shadow-2xl">
-<img alt="Modern Nairobi Office" class="w-full h-full object-cover" src="images/img_012.jpg"/>
+<img alt="Modern Nairobi Office" class="w-full h-full object-cover" src="images/citrine_new_01.jpg"/>
 </div>
 </div>
 </div>
-<!-- Slide 2: Team Excellence -->
+<!-- Slide 2: Featured Property - Citrine Heights -->
 <div class="min-w-full h-full flex flex-col md:flex-row items-center">
 <div class="w-full md:w-1/2 px-6 md:px-16 py-12 space-y-8">
-<h1 class="font-display text-4xl md:text-6xl text-black font-bold leading-tight tracking-tight">Your Trusted Real Estate Partner</h1>
-<p class="font-body text-base md:text-lg text-black/80 max-w-md">Our team of dedicated professionals provides transparent, professional, and high-quality property solutions in the Kenyan market.</p>
-<div class="flex gap-4">
-<a class="bg-black text-white px-8 py-4 rounded-full font-label text-sm hover:bg-opacity-80 transition-all text-center" href="contact.html">Contact Us</a>
+<span class="bg-black text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg inline-block w-fit">Featured Property</span>
+<h1 class="font-display text-4xl md:text-6xl text-black font-bold leading-tight tracking-tight">Luxury living at Citrine Heights</h1>
+<p class="font-body text-base md:text-lg text-black/80 max-w-md">Exquisite 2-bedroom luxury apartments on Westlands Road, Westlands. Featuring a heated pool, fully equipped gym, and backup generator.</p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-black text-white px-8 py-4 rounded-full font-label text-sm hover:bg-opacity-80 transition-all text-center" href="properties.html">View Property</a>
+<a class="border border-black text-black px-8 py-4 rounded-full font-label text-sm hover:bg-surface-container-high transition-all text-center" href="contact.html">Inquire Now</a>
 </div>
 </div>
 <div class="w-full md:w-1/2 h-full p-6 md:p-8">
 <div class="w-full h-[300px] md:h-full rounded-3xl overflow-hidden shadow-2xl">
-<img alt="Professional Kenyan Real Estate Team" class="w-full h-full object-cover" src="images/img_015.jpg"/>
+<img alt="Featured Property: 2-Bedroom Luxury Apartment, Citrine Heights" class="w-full h-full object-cover" src="images/citrine_06.jpg"/>
 </div>
 </div>
 </div>
@@ -121,7 +124,7 @@
 <section class="py-24 px-6 md:px-16 max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center" id="about">
 <div class="space-y-8 order-2 md:order-1">
 <h2 class="font-headline text-4xl md:text-5xl font-bold text-black">Your Trusted Real Estate Partner</h2>
-<p class="font-body text-base md:text-lg text-black/70 leading-relaxed">Megascope Properties is a premier real estate firm dedicated to providing transparent, professional, and high-quality property solutions in the Kenyan market.</p>
+<p class="font-body text-base md:text-lg text-black/70 leading-relaxed">Kianyinyi Company Limited is a premier real estate firm dedicated to providing transparent, professional, and high-quality property solutions in the Kenyan market.</p>
 <p class="font-body text-base text-black/60 leading-relaxed">We bridge the gap between dream and reality, ensuring every transaction is handled with the highest level of integrity and legal verification required by Kenyan law.</p>
 <div class="flex flex-wrap gap-4 pt-4">
 <button class="bg-black text-white px-8 py-3 rounded-full font-label text-sm hover:bg-opacity-80 transition-all">Learn More</button>
@@ -130,7 +133,7 @@
 </div>
 <div class="relative order-1 md:order-2">
 <div class="aspect-square rounded-3xl overflow-hidden shadow-xl">
-<img alt="Real Estate Professionals in Kenya" class="w-full h-full object-cover" src="images/img_015.jpg"/>
+<img alt="Real Estate Professionals in Kenya" class="w-full h-full object-cover" src="images/citrine_new_02.jpg"/>
 </div>
 <div class="absolute -bottom-8 -left-8 bg-white p-8 rounded-2xl shadow-lg border border-outline-variant hidden lg:block">
 <div class="text-3xl font-bold text-black">15+</div>
@@ -148,7 +151,7 @@
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
 <div class="space-y-2" id="accordion-container">
 <!-- Service Items -->
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent hover:border-outline-variant" data-img="images/img_029.jpg" data-index="0">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent hover:border-outline-variant" data-img="images/citrine_new_06.jpg" data-index="0">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">01 - Buying</span>
 <span class="material-symbols-outlined transition-transform duration-300">add</span>
@@ -157,7 +160,7 @@
 <p class="font-body text-sm md:text-base text-black/70">Expert guidance for property acquisition, from search to final handover.</p>
 </div>
 </div>
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl active-service-accordion border border-black/10" data-img="images/img_023.jpg" data-index="1">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl active-service-accordion border border-black/10" data-img="images/citrine_new_07.jpg" data-index="1">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">02 - Selling</span>
 <span class="material-symbols-outlined transition-transform duration-300">remove</span>
@@ -166,7 +169,7 @@
 <p class="font-body text-sm md:text-base text-black/70">Strategic marketing and valuation to get the best price for your property.</p>
 </div>
 </div>
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_018.jpg" data-index="2">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/citrine_new_08.jpg" data-index="2">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">03 - Renting</span>
 <span class="material-symbols-outlined transition-transform duration-300">add</span>
@@ -175,7 +178,7 @@
 <p class="font-body text-sm md:text-base text-black/70">Comprehensive tenant matching and rental management for residential properties.</p>
 </div>
 </div>
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_010.jpg" data-index="3">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_025.jpg" data-index="3">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">04 - Sourcing</span>
 <span class="material-symbols-outlined transition-transform duration-300">add</span>
@@ -184,7 +187,7 @@
 <p class="font-body text-sm md:text-base text-black/70">Targeted property searches for unique investment opportunities and land.</p>
 </div>
 </div>
-<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_019.jpg" data-index="4">
+<div class="accordion-item p-6 cursor-pointer transition-all rounded-2xl border border-transparent" data-img="images/img_022.jpg" data-index="4">
 <div class="flex justify-between items-center">
 <span class="font-headline text-xl font-bold">05 - Leasing</span>
 <span class="material-symbols-outlined transition-transform duration-300">add</span>
@@ -195,7 +198,7 @@
 </div>
 </div>
 <div class="h-[300px] md:h-[500px] rounded-3xl overflow-hidden sticky top-32 shadow-2xl hidden lg:block">
-<img alt="Service Illustration" class="w-full h-full object-cover transition-opacity duration-500" id="service-display-image" src="images/img_023.jpg"/>
+<img alt="Service Illustration" class="w-full h-full object-cover transition-opacity duration-500" id="service-display-image" src="images/citrine_new_07.jpg"/>
 </div>
 </div>
 </div>
@@ -301,7 +304,7 @@
 <section class="py-24 px-6 md:px-16 max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 <div class="order-2 md:order-1">
 <div class="rounded-3xl overflow-hidden shadow-xl">
-<img alt="Kenyan Real Estate Authority" class="w-full h-auto object-cover" src="images/img_015.jpg"/>
+<img alt="Kenyan Real Estate Authority" class="w-full h-auto object-cover" src="images/citrine_new_12.jpg"/>
 </div>
 </div>
 <div class="space-y-8 order-1 md:order-2">
@@ -420,8 +423,8 @@
 <footer class="bg-white border-t border-outline-variant">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 px-6 md:px-16 py-24 max-w-[1280px] mx-auto">
 <div class="space-y-6">
-<div class="mb-6">
-<img alt="Kianyinyi Logo" class="h-16 w-auto object-contain" src="images/img_009.jpg"/>
+<div class="mb-4">
+<img alt="Kianyinyi Company Limited Logo" class="w-auto object-contain" style="height:90px;" src="images/logo.jpg">
 </div>
 <p class="font-body text-sm text-black/60 leading-relaxed">Your trusted companion in the journey to finding the perfect property in Kenya. Excellence, integrity, and transparency in every deal.</p>
 </div>
@@ -444,13 +447,13 @@
                     </a>
 </li>
 <li class="">
-<a class="text-black/60 hover:text-black font-body text-sm transition-all flex items-center gap-3" href="#">
+<a class="text-black/60 hover:text-black font-body text-sm transition-all flex items-center gap-3" href="https://www.tiktok.com/@megascopeproperties" target="_blank">
 <span class="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center text-xs"><i class="fab fa-tiktok"></i></span>
                         TikTok
                     </a>
 </li>
 <li class="">
-<a class="text-black/60 hover:text-black font-body text-sm transition-all flex items-center gap-3" href="#">
+<a class="text-black/60 hover:text-black font-body text-sm transition-all flex items-center gap-3" href="https://www.facebook.com/megascopeproperty" target="_blank">
 <span class="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center text-xs"><i class="fab fa-facebook-f"></i></span>
                         Facebook
                     </a>
@@ -467,7 +470,7 @@
 </div>
 </div>
 <div class="px-6 md:px-16 py-8 border-t border-outline-variant max-w-[1280px] mx-auto text-center font-body text-black/40 text-[10px] uppercase tracking-widest">
-        © 2026 Megascope Properties
+        © 2026 Kianyinyi Company Limited. All rights reserved.
     </div>
 </footer>
 <script>
@@ -726,6 +729,7 @@
     function closeModal() {
         modal.classList.remove('active');
         document.body.style.overflow = '';
+        modalContent.innerHTML = '';
     }
 
     // Filter UI interaction
